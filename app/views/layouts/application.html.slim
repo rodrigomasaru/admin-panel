@@ -1,0 +1,29 @@
+doctype html
+html lang="en"
+
+  head
+    meta[charset="utf-8"]
+    meta[name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"]
+
+    title Star Admin/title
+
+    = stylesheet_link_tag 'bootstrap.boot'
+    = stylesheet_link_tag 'font-awesome.boot'
+    = stylesheet_link_tag 'perfect-scrollbar.boot'
+    = stylesheet_link_tag 'flag-icon-css.boot'
+    = stylesheet_link_tag 'star_admin.boot'
+
+  body
+    .container-scroller
+      = render partial: 'layouts/layouts/navbar'
+
+      .container-fluid
+        .row.row-offcanvas.row-offcanvas-right
+          = render partial: 'layouts/layouts/sidebar'
+
+          .content-wrapper
+            = yield
+
+          = render partial: 'layouts/layouts/footer'
+
+  = javascript_include_tag 'application'

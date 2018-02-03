@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: admin-panel_development
+
+test:
+  <<: *default
+  database: admin-panel_test
+
+production:
+  <<: *default
+  database: admin-panel_production
+  username: admin-panel
+  password: <%= ENV['ADMIN-PANEL_DATABASE_PASSWORD'] %>
