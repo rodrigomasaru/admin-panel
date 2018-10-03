@@ -7,7 +7,7 @@ end
 
 ruby '2.5.0'
 
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.1.6'
 
 # Database and data related
 gem 'kaminari'
