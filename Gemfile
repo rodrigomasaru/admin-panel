@@ -11,7 +11,7 @@ gem 'rails', '~> 5.1.4'
 
 # Database and data related
 gem 'kaminari'
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 1.1'
 gem 'ransack'
 
 # Authentication
