@@ -65,7 +65,7 @@ GEM
       xpath (>= 2.0, < 4.0)
     childprocess (0.8.0)
       ffi (~> 1.0, >= 1.0.11)
-    codelog (0.3.1)
+    codelog (0.8.0)
       thor (~> 0.19)
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
