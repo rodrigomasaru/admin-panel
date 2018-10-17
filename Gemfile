@@ -31,7 +31,7 @@ gem 'settingslogic'
 
 # Server
 gem 'newrelic_rpm'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 gem 'rollbar'
 
 # Background processing
